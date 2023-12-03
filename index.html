@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>verlox</title>
+  <title>ray.ly</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/cte.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="cte.css">
 </head>
 <body>
   <div id="particles-container"></div>
   
   <audio controls hidden loop>
-    <source src="assets/audio/song.mp3" type="audio/mpeg">
+    <source src="song.mp3" type="audio/mpeg">
   </audio>
   
   <div id="content-container">
@@ -24,12 +24,12 @@
     </div>
   </div>
   
-  <script src="/assets/particles.js/particles.min.js"></script>
-  <script src="/assets/particles.js/app.js"></script>
-  <script src="/assets/js/cte.js"></script>
+  <script src="particles.min.js"></script>
+  <script src="app.js"></script>
+  <script src="cte.js"></script>
 
-  <script src="/assets/js/jquery.min.js"></script>
-  <script src="/assets/js/jquery.marquee.min.js"></script>
+  <script src="jquery.min.js"></script>
+  <script src="jquery.marquee.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
   <script>
@@ -40,15 +40,15 @@
       aud.play();
 
       var typed = new Typed("#typing", {
-        strings: ["destroying kids dreams since 2017", "lithium owns you", "lithium owner", "reaping rewards", "professional kpop destroyer", "discord terminated", "verlox#0001"],
+        strings: ["Just a student ", "Wanna know about me ?? ", "insta ~ harsh_ly_4", "I'm too lazy though", "discord ~ .gg/chillvibes", "discord terminated", "ray.ly#0001"],
         typeSpeed: 30,
         backspeed: 20,
         showCursor: false
       });
 
-      var lines = ["discord.gg/lith", "discord terminated", "github.com/verlox"];
+      var lines = ["discord.gg/chillvibes", "discord terminated", "github.com/Ray-ly-04"];
       for (var x = 0;x < lines.length;x++)
-        $("#marquee").append(`${lines[x]}${(x < lines.length - 1? ' <img class="emoji" src="/assets/images/seperator.png"> ' : '')}`);
+        $("#marquee").append(`${lines[x]}${(x < lines.length - 1? ' <img class="emoji" src="logo.png"> ' : '')}`);
 
       $("#marquee").marquee({
         duration: 7500,
